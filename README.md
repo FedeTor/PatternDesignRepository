@@ -1,4 +1,4 @@
-📂 **_Proyecto - API de Gestión de Productos_**
+📂 **_Proyecto - API de Gestión de Productos con Patron de Diseño Repository_**
 
 Este es un proyecto de API para la gestión de productos, desarrollado como parte de mi portfolio profesional. La arquitectura implementa el patrón de diseño Repository, lo cual permite 
 separar la lógica de acceso a datos de la lógica de negocio, mejorando así la flexibilidad y mantenibilidad del código.
