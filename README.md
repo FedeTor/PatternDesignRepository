@@ -56,7 +56,7 @@ Dentro de la carpeta "Documentation" se encuentra el script para crear la base d
 - Ejecuta el siguiente comando en la consola del administrador de paquetes:
 
 
-```bash Add-Migration InitialCreate -Project Infrastructure -StartupProject Api.Presentation
+```bash Add-Migration InitialCreate -Project Infrastructure -StartupProject Api.Presentation```
 
 
 Este comando generará la migración inicial basada en las entidades definidas.
@@ -65,7 +65,7 @@ Este comando generará la migración inicial basada en las entidades definidas.
 - Para aplicar las migraciones a la base de datos, ejecuta el siguiente comando:
 
 ```bash
-Update-Database -Project Infrastructure -StartupProject Api.Presentation
+Update-Database -Project Infrastructure -StartupProject Api.Presentation```
 
 
 Esto creará las tablas en la base de datos según las configuraciones especificadas en el DbContext.
