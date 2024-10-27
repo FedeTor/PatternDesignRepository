@@ -53,17 +53,13 @@ Dentro de la carpeta "Documentation" se encuentra el script para crear la base d
   
 **Pasos**
 - Establecer la capa Api.Presentation como proyecto de inicio.
-- Ejecuta el siguiente comando en la consola del administrador de paquetes:
+- Ejecuta el siguiente comando en la consola del administrador de paquetes para generar la migración inicial basada en las entidades definidas:
 
 ```Add-Migration InitialCreate -Project Infrastructure -StartupProject Api.Presentation```
 
-Este comando generará la migración inicial basada en las entidades definidas.
-
-- Para aplicar las migraciones a la base de datos, ejecuta el siguiente comando:
+- Para aplicar las migraciones a la base de datos y crear las tablas en la base de datos según las configuraciones especificadas en el DbContext, ejecuta el siguiente comando:
 
 ```Update-Database -Project Infrastructure -StartupProject Api.Presentation```
-
-Esto creará las tablas en la base de datos según las configuraciones especificadas en el DbContext.
 
 
 ⚙️ **_Instrucciones de Ejecución_**
