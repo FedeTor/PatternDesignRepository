@@ -50,13 +50,16 @@ Dentro de la carpeta "Documentation" se encuentra el script para crear la base d
 **Requisitos Previos**
 - Las entidades y el DbContext ya se encuentran definidas.
 - Verificar que la configuración de la cadena de conexión en el archivo appsettings.json sea correcta.
+  
 **Pasos**
 - Establecer la capa Api.Presentation como proyecto de inicio.
 - Ejecuta el siguiente comando en la consola del administrador de paquetes:
 ```bash
 Add-Migration InitialCreate -Project Infrastructure -StartupProject Api.Presentation
 
+
 Este comando generará la migración inicial basada en las entidades definidas.
+
 
 - Para aplicar las migraciones a la base de datos, ejecuta el siguiente comando:
 ```bash
