@@ -68,3 +68,25 @@ Además se agregó una carpeta "Documentation" con la coleccion de postman, solo
 - POST **/api/products/create**: Agrega un nuevo producto
 - PUT **/api/products/update**: Actualiza un producto existente
 - DELETE **/api/products/delete**: Elimina un producto
+
+
+🧪 **_Pruebas Unitarias_**
+
+El proyecto incluye pruebas unitarias implementadas en la capa **Application.Tests** utilizando **Moq** y **NUnit**. Estas pruebas aseguran la calidad y la estabilidad del código, permitiendo identificar y corregir errores de manera temprana.
+
+#### Tecnologías Utilizadas
+- **Moq**: Una biblioteca para crear objetos simulados (mocks) en pruebas unitarias, lo que permite simular el comportamiento de las dependencias de las clases que se están probando.
+- **NUnit**: Un marco de trabajo para pruebas unitarias que permite escribir y ejecutar pruebas en .NET.
+
+#### Ejecución de Pruebas
+Para ejecutar las pruebas unitarias, sigue estos pasos:
+
+1. Abre la solución en Visual Studio o en tu IDE de preferencia.
+2. Asegúrate de que todos los proyectos estén construidos correctamente.
+3. Accede a la ventana **Test** -> **Test Explorer** en Visual Studio.
+4. Haz clic en "Run All" (Ejecutar todo) para ejecutar todas las pruebas.
+
+También puedes ejecutar las pruebas, dentro de la carpeta donde se encuentran las pruebas, desde la línea de comandos utilizando el siguiente comando:
+
+```bash
+dotnet test
