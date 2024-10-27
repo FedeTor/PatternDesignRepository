@@ -4,6 +4,7 @@ Este es un proyecto de API para la gestión de productos, desarrollado como part
 separar la lógica de acceso a datos de la lógica de negocio, mejorando así la flexibilidad y mantenibilidad del código.
 
 🛠️ **Tecnologías Utilizadas**
+
 - **Lenguaje**: C# (.NET Core)
 - **Framework**: ASP.NET Core Web API
 - **ORM**: Entity Framework Core para la gestión de la base de datos.
@@ -12,6 +13,7 @@ separar la lógica de acceso a datos de la lógica de negocio, mejorando así la
 - **Inyección de Dependencias**: Gestión nativa de .NET Core
 
 🎨 **Patrones de Diseño y Arquitectura**
+
 Este proyecto incorpora varios patrones de diseño y principios para mantener el código limpio, escalable y fácil de mantener:
 
 - **Repository Pattern**: Abstrae el acceso a la base de datos, permitiendo cambiar de proveedor de datos sin impactar la lógica de negocio.
@@ -20,6 +22,7 @@ Este proyecto incorpora varios patrones de diseño y principios para mantener el
 - **Error Handling y Logging**: Estructura la gestión de errores y logs, optimizando la detección y solución de problemas en producción.
 
 🏛️ **Arquitectura**
+
 El proyecto está diseñado con una arquitectura modular basada en Clean Architecture, que separa la lógica de negocio (Domino y Aplicación) de la infraestructura y la capa de presentación. 
 Esto facilita el mantenimiento y escalabilidad de la aplicación.
 
@@ -31,14 +34,17 @@ Esto facilita el mantenimiento y escalabilidad de la aplicación.
 - Presentation: Exposición de la API mediante controladores.
 
 👨‍🏫 **Buenas Prácticas Implementadas**
+
 -**ncipios SOLID**: Código modular, con baja dependencia entre clases y alta cohesión.
 - **POO** (Programación Orientada a Objetos): Uso de encapsulación, herencia y polimorfismo para crear componentes reutilizables y flexibles.
 - **DRY** (Don't Repeat Yourself): Minimiza la repetición innecesaria de código.
 
 🗃️ **Base de Datos**
+
 La base de datos predeterminada es SQL Server.
 
 ⚙️ **Instrucciones de Ejecución**
+
 **Requisitos Previos**
 - .NET 7.0 SDK o superior
 - SQL Server u otro motor de base de datos compatible.
