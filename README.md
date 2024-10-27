@@ -43,6 +43,28 @@ Esto facilita el mantenimiento y escalabilidad de la aplicación.
 
 La base de datos predeterminada es SQL Server.
 
+Dentro de la carpeta "Documentation" se encuentra el script para crear la base de datos con la tabla correspondiente, opcionalmente se puede hacer mediante un enfoque Code First.
+
+**Enfoque Code First**: A continuación se describen los pasos para configurar y migrar la base de datos:
+
+**Requisitos Previos**
+- Las entidades y el DbContext ya se encuentran definidas.
+- Verificar que la configuración de la cadena de conexión en el archivo appsettings.json sea correcta.
+**Pasos**
+- Establecer la capa Api.Presentation como proyecto de inicio.
+- Ejecuta el siguiente comando en la consola del administrador de paquetes:
+```bash
+Add-Migration InitialCreate -Project Infrastructure -StartupProject Api.Presentation
+
+Este comando generará la migración inicial basada en las entidades definidas.
+
+- Para aplicar las migraciones a la base de datos, ejecuta el siguiente comando:
+```bash
+Update-Database -Project Infrastructure -StartupProject Api.Presentation
+
+Esto creará las tablas en la base de datos según las configuraciones especificadas en el DbContext.
+
+
 ⚙️ **_Instrucciones de Ejecución_**
 
 **Requisitos Previos**
