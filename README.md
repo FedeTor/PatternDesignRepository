@@ -68,7 +68,7 @@ Update-Database -Project Infrastructure -StartupProject Api.Presentation
 ⚙️ **_Instrucciones de Ejecución_**
 
 **Requisitos Previos**
-- .NET 7.0 SDK o superior
+- .NET 8. (.NET 7.0 SDK o superior).
 - SQL Server u otro motor de base de datos compatible.
 - IDE compatible con .NET (Visual Studio o VS Code).
 **Configuración del Proyecto**
