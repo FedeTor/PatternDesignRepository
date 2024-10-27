@@ -3,12 +3,12 @@ Este es un proyecto de API para la gestión de productos, desarrollado como part
 separar la lógica de acceso a datos de la lógica de negocio, mejorando así la flexibilidad y mantenibilidad del código.
 
 🛠️ Tecnologías Utilizadas
-Lenguaje: C# (.NET Core)
-Framework: ASP.NET Core Web API
-ORM: Entity Framework Core para la gestión de la base de datos.
-Base de Datos: SQL Server.
-Logger: SeriLog para la gestión de logs.
-Inyección de Dependencias: Gestión nativa de .NET Core
+- **Lenguaje**: C# (.NET Core)
+- **Framework**: ASP.NET Core Web API
+- **ORM**: Entity Framework Core para la gestión de la base de datos.
+- **Base de Datos**: SQL Server.
+- **Logger**: SeriLog para la gestión de logs.
+- **Inyección de Dependencias**: Gestión nativa de .NET Core
 
 🎨 Patrones de Diseño y Arquitectura
 Este proyecto incorpora varios patrones de diseño y principios para mantener el código limpio, escalable y fácil de mantener:
@@ -43,7 +43,7 @@ Requisitos Previos
 SQL Server u otro motor de base de datos compatible.
 IDE compatible con .NET (Visual Studio o VS Code).
 Configuración del Proyecto
-Clona el repositorio: https://github.com/FedeTor/Patron-de-Dise-o-Repository.git
+Clona el repositorio: https://github.com/FedeTor/PatternDesignRepository.git
 Configura la base de datos: En el archivo appsettings.json, ajusta la cadena de conexión a la base de datos.
 Ejecuta la aplicación.
 
