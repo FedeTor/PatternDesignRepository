@@ -55,7 +55,8 @@ Dentro de la carpeta "Documentation" se encuentra el script para crear la base d
 - Establecer la capa Api.Presentation como proyecto de inicio.
 - Ejecuta el siguiente comando en la consola del administrador de paquetes:
 
-Add-Migration InitialCreate -Project Infrastructure -StartupProject Api.Presentation
+
+```bash Add-Migration InitialCreate -Project Infrastructure -StartupProject Api.Presentation
 
 
 Este comando generará la migración inicial basada en las entidades definidas.
