@@ -1,9 +1,9 @@
-📂 **Proyecto - API de Gestión de Productos**
+📂 **_Proyecto - API de Gestión de Productos_**
 
 Este es un proyecto de API para la gestión de productos, desarrollado como parte de mi portfolio profesional. La arquitectura implementa el patrón de diseño Repository, lo cual permite 
 separar la lógica de acceso a datos de la lógica de negocio, mejorando así la flexibilidad y mantenibilidad del código.
 
-🛠️ **Tecnologías Utilizadas**
+🛠️ **_Tecnologías Utilizadas_**
 
 - **Lenguaje**: C# (.NET Core)
 - **Framework**: ASP.NET Core Web API
@@ -12,7 +12,7 @@ separar la lógica de acceso a datos de la lógica de negocio, mejorando así la
 - **Logger**: SeriLog para la gestión de logs.
 - **Inyección de Dependencias**: Gestión nativa de .NET Core
 
-🎨 **Patrones de Diseño y Arquitectura**
+🎨 **_Patrones de Diseño y Arquitectura_**
 
 Este proyecto incorpora varios patrones de diseño y principios para mantener el código limpio, escalable y fácil de mantener:
 
@@ -21,7 +21,7 @@ Este proyecto incorpora varios patrones de diseño y principios para mantener el
 - **DTOs (Data Transfer Objects)**: Facilitan el transporte de datos entre capas, protegiendo la integridad de las entidades.
 - **Error Handling y Logging**: Estructura la gestión de errores y logs, optimizando la detección y solución de problemas en producción.
 
-🏛️ **Arquitectura**
+🏛️ **_Arquitectura_**
 
 El proyecto está diseñado con una arquitectura modular basada en Clean Architecture, que separa la lógica de negocio (Domino y Aplicación) de la infraestructura y la capa de presentación. 
 Esto facilita el mantenimiento y escalabilidad de la aplicación.
@@ -33,17 +33,17 @@ Esto facilita el mantenimiento y escalabilidad de la aplicación.
 - Infrastructure: Configuración de acceso a bases de datos y lógica específica del proveedor.
 - Presentation: Exposición de la API mediante controladores.
 
-👨‍🏫 **Buenas Prácticas Implementadas**
+👨‍🏫 **_Buenas Prácticas Implementadas_**
 
 - **Principios SOLID**: Código modular, con baja dependencia entre clases y alta cohesión.
 - **POO** (Programación Orientada a Objetos): Uso de encapsulación, herencia y polimorfismo para crear componentes reutilizables y flexibles.
 - **DRY** (Don't Repeat Yourself): Minimiza la repetición innecesaria de código.
 
-🗃️ **Base de Datos**
+🗃️ **_Base de Datos_**
 
 La base de datos predeterminada es SQL Server.
 
-⚙️ **Instrucciones de Ejecución**
+⚙️ **_Instrucciones de Ejecución_**
 
 **Requisitos Previos**
 - .NET 7.0 SDK o superior
@@ -58,9 +58,9 @@ La base de datos predeterminada es SQL Server.
 
 La API documentada con Swagger estará disponible en https://localhost:7084/swagger
 
-Además se agregó una carpeta "Documentación" con la coleccion de postman, solo queda descargarla e importarla si se desea utilizar.
+Además se agregó una carpeta "Documentation" con la coleccion de postman, solo queda descargarla e importarla si se desea utilizar.
 
-📜 **Endpoints Principales**
+📜 **_Endpoints Principales_**
 **Los endpoints principales disponibles en la API son**:
 
 - GET **/api/products/all**: Obtiene todos los productos
