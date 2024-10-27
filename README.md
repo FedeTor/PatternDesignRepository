@@ -63,9 +63,10 @@ Este comando generará la migración inicial basada en las entidades definidas.
 
 
 - Para aplicar las migraciones a la base de datos, ejecuta el siguiente comando:
-```bash
 
+```bash
 Update-Database -Project Infrastructure -StartupProject Api.Presentation
+
 
 Esto creará las tablas en la base de datos según las configuraciones especificadas en el DbContext.
 
