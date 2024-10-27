@@ -88,7 +88,7 @@ Además se agregó una carpeta "Documentation" con la coleccion de postman, solo
 📜 **_Endpoints Principales_**
 **Los endpoints principales disponibles en la API son**:
 
-- GET ```**/api/products/all**```: Obtiene todos los productos
+- GET **```/api/products/all```**: Obtiene todos los productos
 - GET ```**/api/products/get**```: Obtiene un producto por ID
 - POST ```**/api/products/create**```: Agrega un nuevo producto
 - PUT ```**/api/products/update**```: Actualiza un producto existente
