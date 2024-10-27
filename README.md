@@ -72,7 +72,8 @@ Update-Database -Project Infrastructure -StartupProject Api.Presentation
 - SQL Server u otro motor de base de datos compatible.
 - IDE compatible con .NET (Visual Studio o VS Code).
 **Configuración del Proyecto**
-- Clona el repositorio: ```
+- Clona el repositorio:
+  ```
   https://github.com/FedeTor/PatternDesignRepository.git
   ```
 - Configura la base de datos: En el archivo appsettings.json, ajusta la cadena de conexión a la base de datos.
