@@ -35,7 +35,7 @@ Esto facilita el mantenimiento y escalabilidad de la aplicación.
 
 👨‍🏫 **Buenas Prácticas Implementadas**
 
--**ncipios SOLID**: Código modular, con baja dependencia entre clases y alta cohesión.
+- **Principios SOLID**: Código modular, con baja dependencia entre clases y alta cohesión.
 - **POO** (Programación Orientada a Objetos): Uso de encapsulación, herencia y polimorfismo para crear componentes reutilizables y flexibles.
 - **DRY** (Don't Repeat Yourself): Minimiza la repetición innecesaria de código.
 
