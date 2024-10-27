@@ -59,7 +59,10 @@ Dentro de la carpeta "Documentation" se encuentra el script para crear la base d
 
 - Para aplicar las migraciones a la base de datos y crear las tablas en la base de datos según las configuraciones especificadas en el DbContext, ejecuta el siguiente comando:
 
-```Update-Database -Project Infrastructure -StartupProject Api.Presentation```
+```
+```bash
+Update-Database -Project Infrastructure -StartupProject Api.Presentation
+```
 
 
 ⚙️ **_Instrucciones de Ejecución_**
