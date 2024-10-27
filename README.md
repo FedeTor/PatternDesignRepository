@@ -108,8 +108,8 @@ Para ejecutar las pruebas unitarias, sigue estos pasos:
 
 1. Abre la solución en Visual Studio o en tu IDE de preferencia.
 2. Asegúrate de que todos los proyectos estén construidos correctamente.
-3. Accede a la ventana **Test** -> **Test Explorer** en Visual Studio.
-4. Haz clic en "Run All" (Ejecutar todo) para ejecutar todas las pruebas.
+3. Accede a la ventana **Test** en Visual Studio.
+4. Haz clic en **Run All** para ejecutar todas las pruebas.
 
 También puedes ejecutar las pruebas, dentro de la carpeta donde se encuentran las pruebas, desde la línea de comandos utilizando el siguiente comando:
 
