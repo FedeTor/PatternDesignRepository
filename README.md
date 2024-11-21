@@ -9,6 +9,7 @@ separar la lógica de acceso a datos de la lógica de negocio, mejorando así la
 - **Framework**: ASP.NET Core Web API
 - **ORM**: Entity Framework Core para la gestión de la base de datos.
 - **Base de Datos**: SQL Server.
+- **Swagger** - Para documentar las APIs y probarlas de manera interactiva.
 - **Logger**: SeriLog para la gestión de logs.
 - **Inyección de Dependencias**: Gestión nativa de .NET Core
 
