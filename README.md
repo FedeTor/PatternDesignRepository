@@ -1,4 +1,4 @@
-📂 **_Proyecto - API de Gestión de Productos con Patron de Diseño Repository_**
+## 📂 **_Proyecto - API de Gestión de Productos con Patron de Diseño Repository_**
 
 Este es un proyecto de API para la gestión de productos, desarrollado como parte de mi portfolio profesional. La arquitectura implementa el patrón de diseño Repository, lo cual permite 
 separar la lógica de acceso a datos de la lógica de negocio, mejorando así la flexibilidad y mantenibilidad del código.
@@ -66,7 +66,7 @@ Add-Migration InitialCreate -Project Infrastructure -StartupProject Api.Presenta
 Update-Database -Project Infrastructure -StartupProject Api.Presentation
 ```
 
-⚙️ **_Instrucciones de Ejecución_**
+## ⚙️ **_Instrucciones de Ejecución_**
 
 **Requisitos Previos**
 - .NET 8. (.NET 7.0 SDK o superior).
@@ -86,7 +86,7 @@ La API documentada con Swagger estará disponible en ```https://localhost:7084/s
 
 Además se agregó una carpeta "Documentation" con la coleccion de postman, solo queda descargarla e importarla si se desea utilizar.
 
-📜 **_Endpoints Principales_**
+## 📜 **_Endpoints Principales_**
 **Los endpoints principales disponibles en la API son**:
 
 - GET **```/api/products/all```**: Obtiene todos los productos
@@ -96,7 +96,7 @@ Además se agregó una carpeta "Documentation" con la coleccion de postman, solo
 - DELETE **```/api/products/delete```**: Elimina un producto
 
 
-🧪 **_Pruebas Unitarias_**
+## 🧪 **_Pruebas Unitarias_**
 
 El proyecto incluye pruebas unitarias implementadas en la capa **Application.Tests** utilizando **Moq** y **NUnit**. Estas pruebas aseguran la calidad y la estabilidad del código, permitiendo identificar y corregir errores de manera temprana.
 
