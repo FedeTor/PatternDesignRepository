@@ -25,7 +25,10 @@ namespace Application.UseCase
             try
             {
                 var product = await _productRepository.GetById(id);
-                return Result<Product>.CreateSuccess(product, "Producto encontrados.");
+                if (product == null)
+                    return Result<Product>.CreateError("Producto no encontrado.");
+
+                return Result<Product>.CreateSuccess(product, "Producto encontrado.");
             }
             catch (Exception ex)
             {

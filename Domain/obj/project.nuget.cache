@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T3OuToiUJJ3u8w6jZnaJV7NOLMQ3/7r2n9a156VY7QRRu8NirKJobZ2O1nsyMzLrwqyjxKuS4b8yrQYpeDfuig==",
+  "dgSpecHash": "RBExN3PwKtRC1PC2aAzltFDC41lI24J0f6jfw3xp23IF5rVgkZTmMbjbwdVLgHBCo1XPuNBTsDm6vIfrEUQHkw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\patron repository\\DesignPatternRepository\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\correccion\\PatternDesignRepository\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

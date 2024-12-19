@@ -17,28 +17,6 @@ namespace Application.UseCase
             _logger = logger;
         }
 
-        //public async Task<Result<ProductResult>> DeleteAsync(int id)
-        //{
-        //    _logger.LogInformation("Start DeleteAsync - Resquest: {0}", JsonConvert.SerializeObject(id));
-
-        //    try
-        //    {
-        //        var product = await _productRepository.GetById(id);
-
-        //        if (product == null)
-        //            return Result<ProductResult>.CreateError("Producto no encontrado.");
-
-        //        await _productRepository.Delete(product);
-
-        //        // Crear un ProductResult con el ID del producto eliminado
-        //        var productResult = new ProductResult { Id = product.Id };
-        //        return Result<ProductResult>.CreateSuccess(productResult, "Producto eliminado exitosamente.");
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return Result<ProductResult>.CreateError($"Error al eliminar el producto: {ex.Message}");
-        //    }
-        //}
         public async Task<Result<ProductResult>> DeleteAsync(int id)
         {
             _logger.LogInformation("Start DeleteAsync - Request: {0}", JsonConvert.SerializeObject(id));

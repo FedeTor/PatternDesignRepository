@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QyW/VSl/Fk9BnzOe7aS8cXCC3mIeggK2yyvwVs/SGlbLBx6NEhWhVdkYP+frEXGXzZcRpFB/l83K4rTqdPyl2Q==",
+  "dgSpecHash": "lmPDrOt/rMd3t9cF9vBub2FOK7GwGj/2F+uYTcpiIdXj6ibC7A1F1tiU5IQ63Ra8u3rvOxuA/syFsB4ttfFXww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\patron repository\\DesignPatternRepository\\Api.Presentation\\Api.Presentation.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\correccion\\PatternDesignRepository\\Api.Presentation\\Api.Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
