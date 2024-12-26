@@ -40,23 +40,24 @@ namespace Application.Tests
 
             // Assert
             Assert.That(result.Success, Is.True);
-            Assert.That(result.Message, Is.EqualTo("Producto encontrados."));
+            Assert.That(result.Message, Is.EqualTo("Producto encontrado."));
             Assert.That(result.Data, Is.EqualTo(product));
         }
 
         [Test]
-        public async Task GetByIdAsync_ProductDoesNotExist_ReturnsNullDataInSuccessResult()
+        public async Task GetByIdAsync_ProductDoesNotExist_ReturnsNullDataInErrorResult()
         {
             // Arrange
             int productId = 1;
+
             _productRepositoryMock.Setup(repo => repo.GetById(productId)).ReturnsAsync((Product)null);
 
             // Act
             var result = await _getByIdService.GetByIdAsync(productId);
 
             // Assert
-            Assert.That(result.Success, Is.True);
-            Assert.That(result.Message, Is.EqualTo("Producto encontrados."));
+            Assert.That(result.Success, Is.False);
+            Assert.That(result.Message, Is.EqualTo("Producto no encontrado."));
             Assert.That(result.Data, Is.Null);
         }
 

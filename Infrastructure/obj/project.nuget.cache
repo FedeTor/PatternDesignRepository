@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nimIve4khHULoWoB/H7mHkYmTkUjQwIB6LTvDF+KznjP7pV2ijoCm/+I80ddnImCUZGh+dsZTDk2uerl9phnkg==",
+  "dgSpecHash": "cla75/ZrduBgwLCTDMY4GIhOV3BjAhj3WGZITi1X0hbiJGuY5UICxD/dwEgV0/7gbVF86eM+ZNE3+7b+HV4y3g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\correccion\\PatternDesignRepository\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\corrigo repo\\PatternDesignRepository\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
