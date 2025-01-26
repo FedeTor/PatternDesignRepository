@@ -43,18 +43,31 @@ namespace Application.Tests
         }
 
         [Test]
-        public async Task GetAllAsync_ExceptionThrown_ReturnsErrorResult()
+        public async Task GetAllAsync_NoProducts_ReturnsSuccessResultWithNoProductsMessage()
         {
             // Arrange
-            _productRepositoryMock.Setup(repo => repo.GetAll()).ThrowsAsync(new Exception("Database error"));
+            var products = new List<Product>(); // No hay productos
+            _productRepositoryMock.Setup(repo => repo.GetAll()).ReturnsAsync(products);
 
             // Act
             var result = await _getAllService.GetAllAsync();
 
             // Assert
-            Assert.That(result.Success, Is.False);
-            Assert.That(result.Message, Is.EqualTo("Error al obtener los productos: Database error"));
-            Assert.That(result.Data, Is.Null);
+            Assert.That(result.Success, Is.True);
+            Assert.That(result.Message, Is.EqualTo("No se encontraron productos cargados."));
+            Assert.That(result.Data, Is.EquivalentTo(products));
+        }
+
+        [Test]
+        public void GetAllAsync_ExceptionThrown_ThrowsException()
+        {
+            // Arrange
+            var exceptionMessage = "Database error";
+            _productRepositoryMock.Setup(repo => repo.GetAll()).ThrowsAsync(new Exception(exceptionMessage));
+
+            // Act & Assert
+            var ex = Assert.ThrowsAsync<Exception>(async () => await _getAllService.GetAllAsync());
+            Assert.That(ex.Message, Is.EqualTo(exceptionMessage));
         }
     }
 }
